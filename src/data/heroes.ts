@@ -1,24 +1,16 @@
 // src/data/heroes.ts
+
+import { getHeroes } from 'dota2-info';
 import { Hero } from '../types/Hero';
 
-export const heroes: Hero[] = [
-  {
-    id: 1,
-    name: 'Axe',
-    image: '/heroes/axe.png',
-    roles: ['Initiator', 'Durable', 'Disabler'],
-    difficulty: 1,
-    attackType: 'Melee',
-    mainAttribute: 'Fuerza',
-  },
-  {
-    id: 2,
-    name: 'Drow Ranger',
-    image: '/heroes/drow_ranger.png',
-    roles: ['Carry', 'Disabler', 'Pusher'],
-    difficulty: 2,
-    attackType: 'Ranged',
-    mainAttribute: 'Agilidad',
-  },
-  // Agrega más héroes...
-];
+const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+export const heroes: Hero[] = getHeroes().map(h => ({
+  id: h.id,
+  name: h.name,
+  image: h.url, // usa 'url' o construye una local si prefieres
+  roles: Object.keys(h.roles) as Hero['roles'],
+  difficulty: h.complexity,
+  attackType: capitalize(h.attack) as Hero['attackType'],
+  mainAttribute: capitalize(h.primaryAttribute) as Hero['mainAttribute'],
+}));
