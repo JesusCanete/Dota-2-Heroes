@@ -65,7 +65,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 6,
@@ -175,7 +175,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 14,
@@ -233,7 +233,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 18,
@@ -306,7 +306,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 23,
@@ -336,7 +336,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 26,
@@ -350,7 +350,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 27,
@@ -365,7 +365,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 28,
@@ -408,7 +408,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 31,
@@ -420,7 +420,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 32,
@@ -459,7 +459,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 35,
@@ -485,7 +485,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 37,
@@ -498,7 +498,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 38,
@@ -525,7 +525,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 40,
@@ -608,7 +608,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 46,
@@ -705,7 +705,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 53,
@@ -746,7 +746,7 @@
     ],
     "difficulty": 1,
     "attackType": "Melee",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 56,
@@ -786,7 +786,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 59,
@@ -866,7 +866,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 65,
@@ -891,7 +891,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 67,
@@ -917,7 +917,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 69,
@@ -1004,7 +1004,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 75,
@@ -1019,7 +1019,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 76,
@@ -1032,7 +1032,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 77,
@@ -1075,7 +1075,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 80,
@@ -1176,7 +1176,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 87,
@@ -1190,7 +1190,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 88,
@@ -1233,7 +1233,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 91,
@@ -1384,7 +1384,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 102,
@@ -1525,7 +1525,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 112,
@@ -1538,7 +1538,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 113,
@@ -1579,7 +1579,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 120,
@@ -1609,7 +1609,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 123,
@@ -1679,7 +1679,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 135,
@@ -1732,7 +1732,7 @@
     ],
     "difficulty": 1,
     "attackType": "Ranged",
-    "mainAttribute": "Intellect"
+    "mainAttribute": "Intelligence"
   },
   {
     "id": 145,

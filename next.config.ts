@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: [
+      "static.wikia.nocookie.net", // Asegúrate de poner aquí el dominio real que usas para las imágenes
+    ],
+  },
 };
 
 export default nextConfig;
