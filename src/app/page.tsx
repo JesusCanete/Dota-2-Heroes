@@ -21,10 +21,10 @@ export default function Home() {
 
 function GameLink({ href, label }: { href: string; label: string }) {
   return (
-    <Link href={href}>
-      <div className="bg-white border rounded-xl p-6 shadow hover:shadow-md hover:scale-105 transition transform duration-300">
+    <Link href={href} passHref>
+      <a className="bg-white border rounded-xl p-6 shadow hover:shadow-md hover:scale-105 transition transform duration-300 block">
         <p className="text-xl font-semibold">{label}</p>
-      </div>
+      </a>
     </Link>
   );
 }

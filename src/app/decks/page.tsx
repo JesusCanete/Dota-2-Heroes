@@ -1,4 +1,3 @@
-// src/app/decks/page.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -56,9 +55,9 @@ function Line({ title, cards }: { title: string; cards: HeroCard[] }) {
     <div>
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-        {cards.map((card) => (
+        {cards.map((card, index) => (
           <div
-            key={card.id + "-" + Math.random()}
+            key={`${card.id}-${index}`}  // Si tienes duplicados usa id + index, sino solo id es suficiente
             className={clsx(
               "rounded-lg border shadow-md p-2 bg-white flex flex-col items-center",
               card.mainAttribute === "Strength" && "border-red-500",

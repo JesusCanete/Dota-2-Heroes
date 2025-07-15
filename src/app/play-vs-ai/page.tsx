@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import heroes from "@/data/heroes.json";
 
 interface Hero {
@@ -14,11 +14,13 @@ interface Hero {
 }
 
 export default function PlayVsAIPage() {
-  // Asignamos dificultad aleatoria 1, 2 o 3 provisionalmente
-  const heroesTyped: Hero[] = heroes.map(h => ({
-    ...h,
-    difficulty: Math.floor(Math.random() * 3) + 1,
-  }));
+  // Asignamos dificultad aleatoria una sola vez con useMemo
+  const heroesTyped: Hero[] = useMemo(() => 
+    heroes.map(h => ({
+      ...h,
+      difficulty: Math.floor(Math.random() * 3) + 1,
+    }))
+  , []);
 
   const [playerHero, setPlayerHero] = useState<Hero | null>(null);
   const [aiHero, setAiHero] = useState<Hero | null>(null);
@@ -55,14 +57,14 @@ export default function PlayVsAIPage() {
       <div className="flex justify-center gap-20 mb-8">
         {[playerHero, aiHero].map((hero, idx) => (
           <div
-            key={idx}
+            key={hero ? hero.id : `empty-${idx}`}
             className="bg-gray-800 rounded-xl p-4 w-48 text-center"
           >
             {hero ? (
               <>
                 <img
                   src={hero.image}
-                  alt={hero.name}
+                  alt={`Imagen de ${hero.name}`}
                   className="mx-auto rounded"
                   width={100}
                   height={100}

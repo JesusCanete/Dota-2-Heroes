@@ -1,15 +1,17 @@
 // src/models/heroCard.ts
+
+export type HeroRole = "Carry" | "Support" | "Nuker" | "Disabler" | "Jungler" | "Durable" | "Escape" | "Pusher" | "Initiator";
+
 export type MainAttribute = "Strength" | "Agility" | "Intelligence";
 
-export interface HeroCard {
+export type HeroCard = {
   id: number;
   name: string;
   image: string;
-  roles: string[];
+  roles: HeroRole[];  // importante: no string[]
   difficulty: number;
   attackType: string;
   mainAttribute: MainAttribute;
-
-  activeRole: string;
+  activeRole: HeroRole;
   points: number;
-}
+};
